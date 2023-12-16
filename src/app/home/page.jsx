@@ -14,7 +14,7 @@ const HomePage = () => {
                             <Link className='text-center py-4 px-7 text-base font-semibold text-white w-full h-full bg-black block rounded-[calc(.8rem-1px)]' href="#">LAUNCHING 15 DECEMBER 2023</Link>
                         </div>
                     </div>
-                    <div className='lg:w-7/12 flex max-w-xl rounded-xl h-fit p-px bg-gradient-to-b from-teal-600 to-purple-600'>
+                    <div className='lg:w-7/12 flex max-w-xl mx-auto rounded-xl h-fit p-px bg-gradient-to-b from-teal-600 to-purple-600'>
                         <video className='rounded-[calc(.8rem-1px)]' autoPlay loop muted playsInline>
                             <source src="/videos/english.mp4" type="video/mp4" />
                         </video>
@@ -104,15 +104,31 @@ const HomePage = () => {
                         <ul>
                             <li className='text-white text-lg leading-normal list-disc mb-7'>LandX provides capital to real-world farmers in exchange for a legal share of their crop in perpetuity.</li>
                             <li className='text-white text-lg leading-normal list-disc mb-7'>The contract is ensured by a farm audit, security deposit, and lien on their land.</li>
-                            <li className='text-white text-lg leading-normal list-disc mb-7'>The farmer's crop share becomes ERC20 tokenized commodity vault (minted xTokens).</li>
+                            <li className='text-white text-lg leading-normal list-disc mb-7'>The farmer s crop share becomes ERC20 tokenized commodity vault (minted xTokens).</li>
                             <li className='text-white text-lg leading-normal list-disc mb-7'>Investors receive asymmetric exposure to real farmland commodities through the xToken and its daily yield.</li>
                         </ul>
                     </div>
                 </div>
             </div>
+            
 
-            <div className='p-5 sm:p-7 md:p-24 border-b border-gray-300'>
-                
+            <div className='p-5 sm:p-7 md:p-24 border-b border-gray-300 w-full'>
+            
+                <div className='mb-8'>
+                    <h2 className='text-white text-4xl font-bold leading-snug text-center'>Subscribe For Updates</h2>
+                    <p className='text-white text-lg leading-normal text-center'>Launching in Q4 2023 - Enter your email to receive project updates.</p>
+                </div>
+                <div>
+                    <form className=' flex flex-col items-center justify-center gap-6'>
+                        <div className='max-w-xs w-full h-20 rounded-2xl overflow-hidden'>
+                            <input type="text" className='w-full h-full px-6 text-lg font-medium outline-none border-none' placeholder="Email Address" />
+                        </div>
+                        <div className='max-w-xs h-20 w-full rounded-2xl  p-px overflow-hidden bg-gradient-to-br from-green-600 to-indigo-600'>
+                            <button className='text-white font-bold text-lg bg-black rounded-[calc(1rem-1px)] w-full h-full'>Subscribe</button>
+                        </div>
+                    </form>
+                    
+                </div>
             </div>
 
 

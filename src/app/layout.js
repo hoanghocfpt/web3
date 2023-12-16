@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} , bg-neutral-950 md:py-10`}>
+      <body className={`${inter.className} , bg-neutral-950 md:py-10 scrollbar-thin scrollbar-track-black scrollbar-thumb-slate-300`}>
         <div className='xl:max-w-7xl w-full md:border md:border-gray-400 md:max-w-5xl mx-auto md:rounded-xl'>
           <Header />
           {children}
