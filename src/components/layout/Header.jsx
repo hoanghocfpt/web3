@@ -6,22 +6,33 @@ const Header = () => {
     return (
         <header className='flex justify-between items-center h-24 border-b border-gray-400 px-6'>
             <Link href="/"><Image src="https://landx.fi/assets/icons/logo/logo-dashboard.svg" alt="logo" width={128} height={77} /></Link>
-            <div className='flex items-center gap-3'>
-                <Link className='text-base font-semibold text-white' href="https://discord.com/invite/hZnTwenQtp">Community</Link>
-                <div>
-                    <span className='text-base font-semibold text-white'>Resources</span>
-                    <div className='hidden'>
-                        <Link className='text-base font-semibold text-white' href="https://discord.com/invite/hZnTwenQtp">Blog</Link>
-                        <Link className='text-base font-semibold text-white' href="https://discord.com/invite/hZnTwenQtp">LandX Academy</Link>
-                        <Link className='text-base font-semibold text-white' href="https://discord.com/invite/hZnTwenQtp">Docs</Link>
+            <div className='flex items-center gap-8'>
+                <div className='hidden md:flex items-center gap-10'>
+                    <Link className='text-xl font-semibold text-white' href="https://discord.com/invite/hZnTwenQtp">Community</Link>
+                    <div className='flex items-center gap-10'>
+                        <span className='text-xl font-semibold text-white'>Resources</span>
+                        <div className='hidden'>
+                            <Link className='text-xl font-semibold text-white' href="https://discord.com/invite/hZnTwenQtp">Blog</Link>
+                            <Link className='text-xl font-semibold text-white' href="https://discord.com/invite/hZnTwenQtp">LandX Academy</Link>
+                            <Link className='text-xl font-semibold text-white' href="https://discord.com/invite/hZnTwenQtp">Docs</Link>
+                        </div>
                     </div>
+                    <Link className='text-base font-semibold text-white' href="/$LNDX">LNDX</Link>
                 </div>
-                <Link className='text-base font-semibold text-white' href="/$LNDX">LNDX</Link>
+                <div className='hidden md:flex max-w-md rounded-xl p-px bg-gradient-to-b from-teal-600 to-purple-600 '>
+                    <Link className='py-3 px-6 text-lg font-semibold text-white w-full h-full bg-black block rounded-[calc(.8rem-1px)]' href="#">LAUNCHING 15 DECEMBER 2023</Link>
+                </div>
+                <div className=' md:hidden'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-w-8 fill-white text-white stroke-white cursor-pointer">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+
+                </div>
             </div>
-            <div className='py-1 px-1 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% rounded-xl'>
-                <Link className='py-3 px-6 text-lg font-semibold text-white w-full h-full bg-black block rounded-lg' href="#">LAUNCHING 15 DECEMBER 2023</Link>
-            </div>
+           
         </header>
+
+
     );
 };
 
