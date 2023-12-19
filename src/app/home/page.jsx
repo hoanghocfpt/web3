@@ -8,8 +8,8 @@ const HomePage = () => {
             <div className='border-b border-gray-300 p-5 sm:p-7 md:p-24'>
                 <div className='lg:flex lg:gap-6 lg:justify-between mb-12'>
                     <div className='mb-5 lg:w-5/12'>
-                        <h1 className='text-4xl text-white font-extrabold leading-snug mb-3'>The Perpetual Commodity Vaults Protocol</h1>
-                        <p className='text-lg text-white mb-8'>Commodity vaults provide investors an inflation hedged return backed by a legal contract secured on underlying farmland. LandX makes commodity vaults available as a liquid digital asset.</p>
+                        <h1 className='text-4xl text-white font-extrabold leading-snug mb-3'>Where Special Boxes Keep Valuables Safe and Everyone Plays Fair!</h1>
+                        <p className='text-lg text-white mb-8'>Imagine special money boxes that keep your money safe from getting more expensive. These boxes are like a promise tied to a piece of farmland. With LandX, you can easily trade these special money boxes online, like trading cards or toys!</p>
                         <div className='flex max-w-xs rounded-xl p-px bg-gradient-to-b from-teal-600 to-purple-600'>
                             <Link className='text-center py-4 px-7 text-base font-semibold text-white w-full h-full bg-black block rounded-[calc(.8rem-1px)]' href="#">LAUNCHING 15 DECEMBER 2023</Link>
                         </div>
@@ -20,27 +20,27 @@ const HomePage = () => {
                         </video>
                     </div>
                 </div>
-                <div className='gap-6 flex flex-col md:flex-row'>
-                    <div className='flex flex-col items-center justify-center py-6'>
+                <div className='gap-6 flex flex-col justify-center md:flex-row'>
+                    <div className='flex flex-col items-center justify-center py-20 rounded-lg max-w-xs px-8 border border-gray-400'>
                         <div className='bg-gradient-to-tl from-teal-600 to-purple-600 w-20 h-20 rotate-45 flex items-center justify-center rounded-xl mb-8'>
                             <Image src="/assets/icons/hand.svg" alt="logo" width={60} height={60} className='-rotate-45'/>
                         </div>
                         <span className='text-xl font-bold text-white mb-4'>Farmers</span>
-                        <p className='text-lg text-white text-center'>Receive upfront capital for committing a legal share of their crop in perpetuity.</p>
+                        <p className='text-lg text-white text-center'>Get an initial sum of money by pledging a lasting portion of your harvest legally.</p>
                     </div>
-                    <div className='flex flex-col items-center justify-center py-6'>
+                    <div className='flex flex-col items-center justify-center py-20 rounded-lg max-w-xs px-8 border border-gray-400'>
                         <div className='bg-gradient-to-tl from-teal-600 to-purple-600 w-20 h-20 rotate-45 flex items-center justify-center rounded-xl mb-8'>
                             <Image src="/assets/icons/clock-with-flower.svg" alt="logo" width={60} height={60} className='-rotate-45'/>
                         </div>
-                        <span className='text-xl font-bold text-white mb-4'>Investors</span>
-                        <p className='text-lg text-white text-center'>Buy xTokens for asymmetric exposure to real farmland commodities.</p>
+                        <span className='text-xl font-bold text-white mb-4'>Validators</span>
+                        <p className='text-lg text-white text-center'>Assist in turning farmland crops into tokens/nfts using a decentralized system on the blockchain</p>
                     </div>
-                    <div className='flex flex-col items-center justify-center py-6'>
+                    <div className='flex flex-col items-center justify-center py-20 rounded-lg max-w-xs px-8 border border-gray-400'>
                         <div className='bg-gradient-to-tl from-teal-600 to-purple-600 w-20 h-20 rotate-45 flex items-center justify-center rounded-xl mb-8'>
                             <Image src="/assets/icons/branch.svg" alt="logo" width={60} height={60} className='-rotate-45'/>
                         </div>
-                        <span className='text-xl font-bold text-white mb-4'>Farmers</span>
-                        <p className='text-lg text-white text-center'>Receive upfront capital for committing a legal share of their crop in perpetuity.</p>
+                        <span className='text-xl font-bold text-white mb-4'>Investors</span>
+                        <p className='text-lg text-white text-center'>Purchase xTokens for a unique way to invest in real farmland goods.</p>
                     </div>
                 </div>
             </div>
