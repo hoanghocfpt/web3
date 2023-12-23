@@ -53,7 +53,7 @@ const HomePage = () => {
                         <p className='text-lg text-white leading-normal'>Benefit from a unique on-chain financial instrument backed by one of the most valuable real world assets - global farmland.</p>
                     </div>
                 </div>
-                <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-6'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-6 border border-gray-300 rounded-xl p-6'>
                     <div className='gap-6 sm:flex py-4'>
                         <div className='w-20 h-20 lg:w-12 lg:h-12 bg-white rounded-full flex-shrink-0 mb-3'>
                             <Image src="/assets/icons/financial.svg" alt="logo" width={50} height={50} className='w-full h-full p-4 lg:p-2 justify-center items-center flex'/>
@@ -102,16 +102,36 @@ const HomePage = () => {
                     <div className='px-8 md:w-6/12'>
                         <h2 className='text-white text-4xl font-bold mb-7'>How LandX Works</h2>
                         <ul>
-                            <li className='text-white text-lg leading-normal list-disc mb-7'>LandX provides capital to real-world farmers in exchange for a legal share of their crop in perpetuity.</li>
-                            <li className='text-white text-lg leading-normal list-disc mb-7'>The contract is ensured by a farm audit, security deposit, and lien on their land.</li>
-                            <li className='text-white text-lg leading-normal list-disc mb-7'>The farmer s crop share becomes ERC20 tokenized commodity vault (minted xTokens).</li>
-                            <li className='text-white text-lg leading-normal list-disc mb-7'>Investors receive asymmetric exposure to real farmland commodities through the xToken and its daily yield.</li>
+                            <li className='text-white text-lg leading-normal list-disc mb-7'>Investors ride the wave of real farmland gains with the xToken, catching daily returns in this unique agricultural adventure!</li>
+                            <li className='text-white text-lg leading-normal list-disc mb-7'>LandX gives money to real farmers, and in return, they get a permanent legal share of the crops.</li>
+                            <li className='text-white text-lg leading-normal list-disc mb-7'>The portion of the farmer&apos;s crops turns into a digital commodity vault in the form of ERC20 tokenized tokens, known as minted xTokens.</li>
+                            <li className='text-white text-lg leading-normal list-disc mb-7'>The agreement is guaranteed through a check of the farm, a security deposit, and a claim on their land.</li>
                         </ul>
                     </div>
                 </div>
             </div>
             
-
+            <div className='p-5 sm:p-7 md:p-24 border-b border-gray-300 w-full'>
+                <div className='flex flex-col md:flex-row'>
+                  
+                    <div className='px-8 md:w-6/12'>
+                        <h2 className='text-white text-4xl font-bold mb-7'>The LandX Token (LNDX)</h2>
+                        <span className='text-white text-lg leading-normal inline-block mb-7'>Token that controls decisions in the LandX DAO.</span>
+                        <ul>
+                            <span className='text-white font-bold mb-3 inline-block text-xl'>People in the DAO:</span>
+                            <li className='text-white text-lg leading-normal list-disc mb-7'>Become eligible to be farmland validators.</li>
+                            <li className='text-white text-lg leading-normal list-disc mb-7'>Get a share of the trading fees.</li>
+                            <li className='text-white text-lg leading-normal list-disc mb-7'>Play a part in shaping LandX&apos;s future – cast your vote on platform decisions and upcoming changes.</li>
+                        </ul>
+                        <div className='flex max-w-xs rounded-xl p-px bg-gradient-to-b from-teal-600 to-purple-600'>
+                            <Link className='text-center py-4 px-7 text-base font-semibold text-white w-full h-full bg-black block rounded-[calc(.8rem-1px)]' href="#">LAUNCHING 15 DECEMBER 2023</Link>
+                        </div>
+                    </div>
+                    <div className='flex justify-center items-center mb-5 md:w-6/12'>
+                        <Image src="/images/lndx-shining-cylinder.svg" alt="logo" width={350} height={326} className='mb-6 md:w-5/12 lg:w-6/12 md:max-w-sm'/>
+                    </div>
+                </div>
+            </div>
             <div className='p-5 sm:p-7 md:p-24 border-b border-gray-300 w-full'>
             
                 <div className='mb-8'>
