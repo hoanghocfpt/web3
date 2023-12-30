@@ -11,7 +11,7 @@ const HomePage = () => {
                         <h1 className='text-4xl text-white font-extrabold leading-snug mb-3'>Where Special Boxes Keep Valuables Safe and Everyone Plays Fair!</h1>
                         <p className='text-lg text-white mb-8'>Imagine special money boxes that keep your money safe from getting more expensive. These boxes are like a promise tied to a piece of farmland. With LandX, you can easily trade these special money boxes online, like trading cards or toys!</p>
                         <div className='flex max-w-xs rounded-xl p-px bg-gradient-to-b from-teal-600 to-purple-600'>
-                            <Link className='text-center py-4 px-7 text-base font-semibold text-white w-full h-full bg-black block rounded-[calc(.8rem-1px)]' href="#">LAUNCHING 15 DECEMBER 2023</Link>
+                            <Link className='text-center py-4 px-7 text-base font-semibold text-white w-full h-full bg-black block rounded-[calc(.8rem-1px)]' href="#">LAUNCH APP</Link>
                         </div>
                     </div>
                     <div className='lg:w-7/12 flex max-w-xl mx-auto rounded-xl h-fit p-px bg-gradient-to-b from-teal-600 to-purple-600'>
